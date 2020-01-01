@@ -35,6 +35,11 @@ mfrc522-rpi@^2.1.1:
     rpi-softspi "^1.0.5"
     rpio "^1.3.0"
 
+msw_nodejs_helper@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/msw_nodejs_helper/-/msw_nodejs_helper-0.0.7.tgz#4e76709ac9bdd4b3990319191d037f6c51bde000"
+  integrity sha512-zhyMgWDXgQRCZhuCH5byfZssx8ruK9VZ1wn/mhDgqkayMWVPeqWZ9TNUJZ3JbwNDhw7zAxY8IRgzPl82SZ00KA==
+
 nan@^2.14.0, nan@~2.14.0:
   version "2.14.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.0.tgz#7818f722027b2459a86f0295d434d1fc2336c52c"

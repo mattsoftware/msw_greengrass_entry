@@ -8,6 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "mfrc522-rpi": "^2.1.1",
+    "msw_nodejs_helper": "^0.0.7",
     "onoff": "^5.0.1",
     "rpi-softspi": "^1.0.5"
   }
