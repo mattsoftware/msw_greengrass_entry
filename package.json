@@ -1,0 +1,14 @@
+{
+  "name": "msw_greengrass_entry",
+  "version": "1.0.0",
+  "description": "Board Support Library for Raspberry Pi Custom Greengrass Entry System",
+  "main": "index.js",
+  "repository": "https://github.com/mattsoftware/msw_greengrass_entry",
+  "author": "Matt Paine <matt@mattsoftware.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mfrc522-rpi": "^2.1.1",
+    "onoff": "^5.0.1",
+    "rpi-softspi": "^1.0.5"
+  }
+}
