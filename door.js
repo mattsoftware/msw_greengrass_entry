@@ -2,4 +2,4 @@
 
 const {Gpio} = require('onoff');
 
-module.exports = () => ({});
+module.exports = {};

@@ -46,15 +46,13 @@ const waitForCard = (pollMs = 500) => {
     });
 };
 
-module.exports = () => {
-    return {
-        waitForCard,
-        scanLoop: async (cb, waitMs = 2000) => {
-            while (true) {
-                const v = await waitForCard();
-                cb(v);
-                await sleep(waitMs, null);
-            }
-        },
-    };
+module.exports = {
+    waitForCard,
+    scanLoop: async (cb, waitMs = 2000) => {
+        while (true) {
+            const v = await waitForCard();
+            cb(v);
+            await sleep(waitMs, null);
+        }
+    },
 };

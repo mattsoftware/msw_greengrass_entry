@@ -40,8 +40,6 @@ const setStatus = state => {
     });
 };
 
-module.exports = () => {
-    return {
-        setStatus,
-    };
+module.exports = {
+    setStatus,
 };
