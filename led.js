@@ -1,7 +1,17 @@
 //@format
 
 const {Gpio} = require('onoff');
-const {LED_GPIO, STATUS_READY, STATUS_WAITING, STATUS_WORKING, STATUS_ERROR, STATUS_OFF} = require('./constants');
+const {
+    LED_GPIO,
+    STATUS_READY,
+    STATUS_WAITING,
+    STATUS_WORKING,
+    STATUS_ERROR,
+    STATUS_OFF,
+    TIMER_WAITING,
+    TIMER_ERROR,
+    TIMER_WORKING,
+} = require('./constants');
 
 const led = new Gpio(LED_GPIO, 'out');
 
