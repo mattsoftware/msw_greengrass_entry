@@ -1,6 +1,6 @@
 {
   "name": "msw_greengrass_entry",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Board Support Library for Raspberry Pi Custom Greengrass Entry System",
   "main": "index.js",
   "repository": "https://github.com/mattsoftware/msw_greengrass_entry",
